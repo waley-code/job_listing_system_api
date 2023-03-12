@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/68809636/224562326-bab040f7-2c2c-447c-a9dc-2fcc8b6134a6.png)
+
 # Back End Development Final Project
 
 The Back End Engineering project aimed to build an API for a job posting platform that will
