@@ -46,7 +46,7 @@ based on specific criteria such as job title, location, or company name.
 
     Route::get('/jobs/search', [JobController::class, 'search']);
 
-    This endpoint will receive a GET request with the search parameters in the query string. The JobController@search method will search for job postings based on the search parameters and return the matching job postings.
+    This endpoint will receive a GET request with the search parameters in the query string. The search method will search for job postings based on the search parameters and return the matching job postings.
 
     Route::get('/jobs/{id}', [JobController::class, 'shpw']);
 
