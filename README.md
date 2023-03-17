@@ -6,7 +6,7 @@ The Back End Engineering project aimed to build an API for a job posting platfor
 enable users to create job postings, edit and update them, and perform other related tasks.
 
 This API was designed to handle all the job details, including the job name, description,
-requirements, salary, location, and any other pertinent details. The system will be built using the Laravel framework.
+requirements, salary, location, and any other details. The system will be built using the Laravel framework.
 
 ## The system will have the following features:
 
