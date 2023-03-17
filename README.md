@@ -38,7 +38,7 @@ This API will require authentication and will remove the job posting from the pl
 
     Route::delete('/jobs/{id}', [JobController::class, 'destroy']);
 
-    This endpoint will receive a DELETE request with the job ID in the URL. The JobController@destroy method will delete the job posting and return a success message.
+    This endpoint will receive a DELETE request with the job ID in the URL. The destroy method will delete the job posting and return a success message.
 
 ### Job Search API:
 The system has an API that allows users to search for job postings
