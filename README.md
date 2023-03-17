@@ -50,7 +50,7 @@ based on specific criteria such as job title, location, or company name.
 
     Route::get('/jobs/{id}', [JobController::class, 'shpw']);
 
-    This endpoint will receive a GET request with the job ID in the URL. The JobController@show method will retrieve the job posting details and return them.
+    This endpoint will receive a GET request with the job ID in the URL. The show method will retrieve the job posting details and return them.
 
 ### Job Filtering API:
 The system has an API that allows users to filter job postings
