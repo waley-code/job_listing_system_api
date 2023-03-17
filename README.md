@@ -21,7 +21,7 @@ salary, job description, and other relevant information.
 
     Route::get('/jobs', [JobController::class, 'index']);
 
-    This endpoint will receive a GET request without any parameters. The JobController@index method will retrieve all job postings and return them.
+    This endpoint will receive a GET request without any parameters. The index method will retrieve all job postings and return them.
 
 ### Job Update API: 
 The system allows users to update their job postings through an API.
