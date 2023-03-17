@@ -30,7 +30,7 @@ description, salary, job location, and other relevant information.
 
     Route::put('/jobs/{id}', [JobController::class, 'update']);
 
-    This endpoint will receive a PUT request with the job ID in the URL and the updated job details in the request body. The JobController@update method will update the job posting details and return them.
+    This endpoint will receive a PUT request with the job ID in the URL and the updated job details in the request body. The update method will update the job posting details and return them.
 
 ### Job Deletion API: 
 The system allows users to delete their job postings through an API.
