@@ -17,7 +17,7 @@ salary, job description, and other relevant information.
 
     Route::post('/jobs', [JobController::class, 'store']);
 
-    This endpoint will receive a POST request with the job details in the request body. The JobController@store method will create a new job posting and return the job details.
+    This endpoint will receive a POST request with the job details in the request body. The store method will create a new job posting and return the job details.
 
     Route::get('/jobs', [JobController::class, 'index']);
 
