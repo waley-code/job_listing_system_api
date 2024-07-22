@@ -71,4 +71,4 @@ authentication and authorization mechanism. Users are being authorized before cr
     The above both endpoints copuled with a middleware was used to protect the creating,updating or deleting job postings endpoints
 
 ### Database:
-MySQL database was used to store job postings and other related information
+MySQL database was used to store job postings data and other related information
